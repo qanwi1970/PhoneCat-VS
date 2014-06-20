@@ -93,8 +93,12 @@
     <Content Include="css\bootstrap-theme.css.map" />
     <Content Include="css\bootstrap.css.map" />
     <None Include="scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="scripts\boot.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\console.js" />
+    <Content Include="scripts\jasmine-html.js" />
+    <Content Include="scripts\jasmine.js" />
     <Content Include="scripts\jquery-1.9.0.js" />
     <Content Include="scripts\jquery-1.9.0.min.js" />
     <Content Include="scripts\jquery-1.9.0.min.map" />
@@ -195,6 +199,7 @@
     <Content Include="js\filters.js" />
     <Content Include="js\services.js" />
     <Content Include="scripts\angular-mocks.js" />
+    <Content Include="tests\controllersSpec.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

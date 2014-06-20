@@ -72,10 +72,17 @@
     <Content Include="jasmine\samples\Player.js" />
     <Content Include="jasmine\samples\PlayerSpec.js" />
     <Content Include="jasmine\samples\Song.js" />
+    <Content Include="js\controllersSpec.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PhoneCat\PhoneCat.csproj">
+      <Project>{3b527dd5-086e-4af3-9de5-8501d968fa16}</Project>
+      <Name>PhoneCat</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
